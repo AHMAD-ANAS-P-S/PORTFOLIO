@@ -5,7 +5,7 @@ import { usePortfolio } from '../hooks/usePortfolio';
 import { SocialLinks } from './SocialLinks';
 
 // Import local assets
-import photoImg from '../assets/img/photo.jpg';
+import photoImg from '../assets/img/photo_working.jpg';
 import resumePdf from '../assets/resume/AhmadAnas_Resume.pdf';
 
 export const HeroSection: React.FC = () => {

@@ -4,7 +4,7 @@ import { Download, Briefcase, GraduationCap, MapPin } from 'lucide-react';
 import { usePortfolio } from '../hooks/usePortfolio';
 
 // Import local assets
-import photoImg from '../assets/img/photo.jpg';
+import photoImg from '../assets/img/photo_to_upload.jpg';
 import resumePdf from '../assets/resume/AhmadAnas_Resume.pdf';
 
 export const AboutSection: React.FC = () => {
