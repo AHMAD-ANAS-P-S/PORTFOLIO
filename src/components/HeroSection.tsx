@@ -16,7 +16,8 @@ export const HeroSection: React.FC = () => {
   useEffect(() => {
     let index = 0;
     const interval = setInterval(() => {
-      setTypedTagline((prev) => prev + fullTagline.charAt(index));
+      const char = fullTagline.charAt(index);
+      setTypedTagline((prev) => prev + char);
       index++;
       if (index >= fullTagline.length) {
         clearInterval(interval);
@@ -58,10 +59,10 @@ export const HeroSection: React.FC = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2.5 px-4.5 py-2 rounded-full bg-white/5 border border-white/5 mb-8"
+          className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-white/5 border border-white/5 mb-8 max-w-full select-none"
         >
           <span className="pulse-dot" />
-          <span className="font-mono text-xs tracking-wider text-green-400 font-medium">
+          <span className="font-mono text-[9px] min-[400px]:text-[10px] sm:text-xs tracking-wider text-green-400 font-medium whitespace-normal sm:whitespace-nowrap text-center">
             Open to Internships – Cybersecurity | AI/ML | Python
           </span>
         </motion.div>
@@ -74,7 +75,7 @@ export const HeroSection: React.FC = () => {
           className="hero-heading select-none mb-4 tracking-tight"
           id="hero-name"
         >
-          {profile.name.toUpperCase()}.
+          {profile.name.toUpperCase()}
         </motion.h1>
 
         {/* Animated Typewriter Tagline */}
@@ -90,18 +91,20 @@ export const HeroSection: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Circular Avatar Photo */}
+        {/* Floating Photo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, type: 'spring', stiffness: 100, delay: 0.4 }}
-          className="relative w-44 h-44 mb-10 group"
+          className="relative mb-10 w-[200px] h-[200px] md:w-[280px] md:h-[280px] flex justify-center items-center"
         >
-          <div className="absolute inset-0 rounded-full bg-cyber-cyan/15 blur-lg group-hover:bg-cyber-cyan/35 transition-all duration-500" />
-          <img
+          <motion.img
             src={photoImg}
             alt={profile.name}
-            className="w-full h-full object-cover rounded-full border-[3px] border-cyber-cyan shadow-[0_0_20px_rgba(0,212,255,0.4)] relative z-10 transition-transform duration-500 group-hover:scale-105"
+            animate={{ y: [0, -10, 0] }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            style={{ filter: "drop-shadow(0 0 24px rgba(0,212,255,0.45))" }}
+            className="w-full h-full object-cover rounded-full relative z-10"
             id="hero-avatar"
           />
         </motion.div>
