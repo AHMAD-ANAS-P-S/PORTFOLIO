@@ -1,0 +1,479 @@
+{
+  "profile": {
+    "name": "Ahmad Anas P S",
+    "shortName": "Ahmad",
+    "tagline": "Cybersecurity Analyst \u00b7 AI/ML Engineer \u00b7 Python Developer",
+    "role": "B.E. Computer Science (Cybersecurity)",
+    "specialization": "Cybersecurity \u00b7 AI/ML \u00b7 Python",
+    "location": "Chennai, India",
+    "yearsOfExperience": "4",
+    "cgpa": "8.14",
+    "college": "St. Joseph's College of Engineering, Chennai",
+    "graduationYear": "2028",
+    "bio": "Computer Science (Cybersecurity) student at St. Joseph's College of Engineering, Chennai. I build AI-driven security systems, ML-based detection pipelines, and Python web applications \u2014 comfortable turning ideas into working systems, not just prototypes. Finalist in 2 national hackathons; recognized by Thoothukudi District Police for an AI-powered public safety solution.",
+    "photo": "/src/assets/img/photo.jpg",
+    "resumePdf": "/src/assets/resume/AhmadAnas_Resume.pdf",
+    "social": {
+      "github": "https://github.com/AHMAD-ANAS-P-S",
+      "linkedin": "https://www.linkedin.com/in/ahmadanas6490692/",
+      "email": "ahmadanas10504@gmail.com",
+      "phone": "+91-9489430023",
+      "instagram": "",
+      "website": ""
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Languages",
+        "items": [
+          "Python",
+          "C",
+          "Java"
+        ]
+      },
+      {
+        "name": "AI & ML",
+        "items": [
+          "Scikit-Learn",
+          "NLP",
+          "XGBoost",
+          "Random Forest",
+          "RoBERTa",
+          "Legal-BERT",
+          "Regression",
+          "Classification",
+          "Clustering",
+          "NumPy"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "items": [
+          "Flask",
+          "FastAPI",
+          "Rasa Chatbot",
+          "Streamlit"
+        ]
+      },
+      {
+        "name": "Tools & Platforms",
+        "items": [
+          "Git",
+          "GitHub",
+          "Postman",
+          "Redis",
+          "PostgreSQL",
+          "Supabase",
+          "Linux",
+          "Raspberry Pi",
+          "Whisper",
+          "spaCy",
+          "OCR"
+        ]
+      },
+      {
+        "name": "Cybersecurity",
+        "items": [
+          "Ethical Hacking",
+          "Penetration Testing",
+          "SQL Injection Testing",
+          "Wireshark",
+          "Network Intrusion Detection",
+          "Bug Bounty",
+          "Social Engineering Analysis"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "order": 1,
+      "company": "amasQis.ai",
+      "role": "AI Intern",
+      "period": "Jun 2025 \u2013 Present",
+      "location": "Remote",
+      "type": "current",
+      "summary": "Working on AIML-driven solutions for enterprise clients.",
+      "certificate": "/src/assets/certificates/internships/amasqis.jpeg",
+      "highlights": [
+        "Building and deploying AI/ML models in a production environment",
+        "Working on real-world AIML-driven automation solutions",
+        "Gaining exposure to enterprise-grade AI systems"
+      ]
+    },
+    {
+      "order": 2,
+      "company": "Big Bucks Innovation",
+      "role": "AIML Intern",
+      "period": "Dec 2025",
+      "location": "Chennai",
+      "type": "completed",
+      "summary": "Built and deployed an AI-based ATS resume screening system with automated email workflows.",
+      "certificate": "/src/assets/certificates/internships/bigbucks.png",
+      "highlights": [
+        "Deployed an AI-based ATS resume screening and assessment system",
+        "Implemented NLP-based text analysis and automated mail-sending pipelines",
+        "Hands-on experience with Regression, Classification, Clustering, and ML pipeline deployment"
+      ]
+    },
+    {
+      "order": 3,
+      "company": "Cappricio Securities",
+      "role": "Cybersecurity Intern",
+      "period": "Jun 2025 \u2013 Jul 2025",
+      "location": "Chennai",
+      "type": "completed",
+      "summary": "Hands-on cybersecurity work simulating real-world attack scenarios using Raspberry Pi.",
+      "certificate": "/src/assets/certificates/internships/cappricio.jpeg",
+      "highlights": [
+        "Built a Raspberry Pi-based system to simulate real-world attack scenarios",
+        "Gained practical knowledge in bug bounty hunting and SQL injection testing",
+        "Applied secure coding practices in offensive security contexts"
+      ]
+    },
+    {
+      "order": 4,
+      "company": "Edunet Foundation | VOIS For Tech",
+      "role": "Cybersecurity Intern",
+      "period": "Dec 2025 \u2013 Jan 2026",
+      "location": "Remote",
+      "type": "completed",
+      "summary": "Worked on cybersecurity and Generative AI including Wireshark analysis, network security, and social engineering.",
+      "certificate": "/src/assets/certificates/internships/edunet.jpeg",
+      "highlights": [
+        "Developed an AI-Based Network Intrusion Detection System",
+        "Built a Keylogger Detection System during the internship",
+        "Covered Wireshark analysis, social engineering, and network security concepts"
+      ]
+    },
+    {
+      "order": 5,
+      "company": "Internshala",
+      "role": "Student Partner",
+      "period": "1 Month",
+      "location": "Remote",
+      "type": "completed",
+      "summary": "Official Student Partner at Internshala \u2014 campus ambassador role representing the platform at St. Joseph's College of Engineering.",
+      "certificate": "/src/assets/certificates/internships/internshala.png",
+      "highlights": [
+        "Received official Student Partner offer letter from Internshala",
+        "Represented Internshala at St. Joseph's College of Engineering, Chennai",
+        "Promoted internship opportunities within the campus community"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "phishing-detection",
+      "title": "Multimodal AI-Driven Real-Time Phishing Detection System",
+      "subtitle": "Detect malicious URLs, emails, and SMS attacks in real time",
+      "description": "A real-time phishing detection system with a browser extension, AI-based threat analysis, and multi-layer phishing prevention across URLs, emails, and SMS.",
+      "stack": [
+        "Python",
+        "NLP",
+        "Browser Extension",
+        "FastAPI"
+      ],
+      "role": "Solo Developer",
+      "year": "2025",
+      "link": "https://github.com/AHMAD-ANAS-P-S/MULTIMODAL-AI-DRIVEN-REAL-TIME-PHISHING-DETECTION-AND-PREVENTION-SYSTEM",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "contract-iq",
+      "title": "ContractIQ \u2013 AI-Powered Contract Analysis Platform",
+      "subtitle": "Clause classification, deviation detection, and legal entity extraction",
+      "description": "An AI-powered contract analysis platform using Legal-BERT for clause classification, deviation detection, and automated legal entity extraction from contract documents.",
+      "stack": [
+        "Legal-BERT",
+        "NLP",
+        "Python",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "role": "Solo Developer",
+      "year": "2026",
+      "link": "https://github.com/AHMAD-ANAS-P-S/ContractIQ",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "voiceserve-ai",
+      "title": "VoiceServe AI \u2013 Multimodal AI Welfare Assistant",
+      "subtitle": "Text, voice, and image inputs for automated welfare-service assistance",
+      "description": "A multimodal AI assistant that processes text, voice, and image inputs to automate welfare-service assistance workflows for underserved communities.",
+      "stack": [
+        "Whisper",
+        "Python",
+        "Rasa",
+        "FastAPI",
+        "OCR"
+      ],
+      "role": "Solo Developer",
+      "year": "2026",
+      "link": "https://github.com/AHMAD-ANAS-P-S/VOICESERVE-AI",
+      "image": "",
+      "highlight": false
+    },
+    {
+      "id": "hydroshield",
+      "title": "HydroShield AI \u2013 Smart Water Quality & Disease Prediction",
+      "subtitle": "Real-time water quality monitoring and disease prediction platform",
+      "description": "An AI-based water quality monitoring and disease prediction platform featuring real-time dashboard visualisation and ML-based anomaly detection.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "role": "Solo Developer",
+      "year": "2025",
+      "link": "https://github.com/AHMAD-ANAS-P-S/HYDROSHIELD-AI",
+      "image": "",
+      "highlight": false
+    },
+    {
+      "id": "nids",
+      "title": "AI-Powered Real-Time Network Intrusion Detection System",
+      "subtitle": "Real-time traffic monitoring and anomaly detection",
+      "description": "An AI-based Network Intrusion Detection System for real-time traffic monitoring, anomaly detection, and threat classification using ML models.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Random Forest",
+        "Wireshark",
+        "FastAPI"
+      ],
+      "role": "Solo Developer",
+      "year": "2026",
+      "link": "https://github.com/AHMAD-ANAS-P-S/AI-Powered-Real-Time-Network-Intrusion-Detection-System",
+      "image": "",
+      "highlight": false
+    },
+    {
+      "id": "mediflow-ai",
+      "title": "MediFlow AI \u2013 Hospital Load Balancing System",
+      "subtitle": "AI-Powered Real-Time Hospital Load Balancing & Emergency Routing Platform",
+      "description": "MediFlow AI is an intelligent healthcare orchestration platform designed to optimize patient routing across Chennai's public hospital network. Using AI-driven load balancing, predictive forecasting, queue prioritization, and ambulance dispatch optimization, the system reduces ER wait times, improves resource utilization, and ensures equitable patient distribution during normal and surge conditions.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Socket.IO",
+        "Prophet",
+        "PuLP",
+        "TailwindCSS"
+      ],
+      "role": "Solo Developer",
+      "year": "2026",
+      "link": "https://github.com/AHMAD-ANAS-P-S",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "phris",
+      "title": "PHRIS \u2013 Predictive Human Risk Intelligence System",
+      "subtitle": "Real-Time Industrial Safety Monitoring & Risk Prediction Platform",
+      "description": "PHRIS is an AI-powered workplace safety system that detects workers, tracks movement across video streams, and predicts accident risks in industrial environments. The platform combines computer vision, human pose estimation, danger-zone monitoring, and behavioral analysis to generate real-time risk scores and trigger proactive safety alerts.",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "DeepSORT",
+        "OpenCV",
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "role": "Solo Developer",
+      "year": "2026",
+      "link": "https://github.com/AHMAD-ANAS-P-S/PHRIS-Predictive-Human-Risk-Intelligence-System-",
+      "image": "",
+      "highlight": false
+    },
+    {
+      "id": "fake-news-detection",
+      "title": "Fake News Detection Telegram Bot",
+      "subtitle": "AI-Based News Verification & Fake News Classification Assistant",
+      "description": "An intelligent Telegram bot that analyzes news articles and classifies them as Real or Fake using machine learning models. The system integrates live news sources, confidence scoring, and automated fact-checking workflows to help users verify information directly within Telegram.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Flask",
+        "Telegram Bot API",
+        "BeautifulSoup",
+        "NewsAPI"
+      ],
+      "role": "Solo Developer",
+      "year": "2025",
+      "link": "https://github.com/AHMAD-ANAS-P-S/fake-news-detection",
+      "image": "",
+      "highlight": false
+    },
+    {
+      "id": "ai-resume-screening",
+      "title": "AI Resume Screening System",
+      "subtitle": "NLP-Powered ATS Resume Analysis & Candidate Ranking Platform",
+      "description": "An AI-driven recruitment automation platform that streamlines hiring by analyzing resumes using NLP and ATS scoring techniques. The system matches resumes against job descriptions, conducts candidate assessments, ranks applicants objectively, and assists HR teams in generating data-driven shortlists.",
+      "stack": [
+        "Python",
+        "NLP",
+        "Machine Learning",
+        "Flask",
+        "ATS Scoring",
+        "PostgreSQL"
+      ],
+      "role": "Solo Developer",
+      "year": "2025",
+      "link": "https://github.com/AHMAD-ANAS-P-S/resume_screening",
+      "image": "",
+      "highlight": false
+    }
+  ],
+  "achievements": [
+    {
+      "id": "a1",
+      "title": "National Hackathon Finalist \u00d7 2",
+      "description": "Finalist in 2 national-level hackathons; secured 7th position nationally at the Mechovate National Level Hackathon (200+ participants)."
+    },
+    {
+      "id": "a2",
+      "title": "Certificate of Excellence \u2014 Hack-O-Hertz",
+      "description": "Received a Certificate of Excellence at the Hack-O-Hertz Hackathon."
+    },
+    {
+      "id": "a3",
+      "title": "Police Appreciation Certificate",
+      "description": "Received an appreciation certificate from Thoothukudi District Police for an innovative AI-powered public safety solution."
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "h1",
+      "name": "SMARTATHON 1.0",
+      "certificate": "/src/assets/certificates/hackathons/smartathon1.png"
+    },
+    {
+      "id": "h2",
+      "name": "MAKE-A-THON 1.0",
+      "certificate": "/src/assets/certificates/hackathons/makeathon1.png"
+    },
+    {
+      "id": "h3",
+      "name": "Thoothukudi District Police Hackathon",
+      "certificate": "/src/assets/certificates/hackathons/police-hackathon.png"
+    },
+    {
+      "id": "h4",
+      "name": "AI HACKATHON",
+      "certificate": "/src/assets/certificates/hackathons/ai-hackathon.jpeg"
+    },
+    {
+      "id": "h5",
+      "name": "HACK-O-HERTZ",
+      "certificate": "/src/assets/certificates/hackathons/hack-o-hertz.jpeg"
+    },
+    {
+      "id": "h6",
+      "name": "Mechovate (7th Nationally)",
+      "certificate": "/src/assets/certificates/hackathons/mechovate.jpeg"
+    },
+    {
+      "id": "h7",
+      "name": "SMARTATHON 2.0",
+      "certificate": "/src/assets/certificates/hackathons/smartathon2.jpeg"
+    },
+    {
+      "id": "h8",
+      "name": "GENESIS HACKATHON",
+      "certificate": "/src/assets/certificates/hackathons/genesis-hackathon.jpeg"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "c1",
+      "name": "IBM Deep Learning",
+      "status": "completed",
+      "image": "/src/assets/certificates/courses/ibm-deep-learning.png"
+    },
+    {
+      "id": "c2",
+      "name": "IBM Machine Learning Basics",
+      "status": "completed",
+      "image": "/src/assets/certificates/courses/ibm-ml-basics.png"
+    },
+    {
+      "id": "c3",
+      "name": "NPTEL Python for Data Science",
+      "badge": "Elite Grade",
+      "status": "completed",
+      "image": "/src/assets/certificates/courses/nptel-python.png"
+    },
+    {
+      "id": "c4",
+      "name": "NPTEL Database Management System",
+      "badge": "Elite Grade",
+      "status": "completed",
+      "image": "/src/assets/certificates/courses/nptel-dbms.jpeg"
+    },
+    {
+      "id": "c5",
+      "name": "Diploma in C Programming",
+      "status": "completed",
+      "image": "/src/assets/certificates/courses/diploma-c.jpeg"
+    },
+    {
+      "id": "c7",
+      "name": "Typewriting Lower Examination",
+      "badge": "First Class Distinction",
+      "status": "completed",
+      "image": "/src/assets/certificates/courses/typewriting.jpeg"
+    },
+    {
+      "id": "c6",
+      "name": "Cisco Data Science Essentials With Python",
+      "status": "completed",
+      "image": "/src/assets/certificates/courses/cisco-data-science.png"
+    },
+    {
+      "id": "c8",
+      "name": "Google Cybersecurity Professional Certificate",
+      "status": "in-progress",
+      "image": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. Computer Science and Engineering (Cybersecurity)",
+      "institution": "St. Joseph's College of Engineering, Chennai",
+      "period": "2024 \u2013 2028",
+      "cgpa": "8.14",
+      "status": "In Progress"
+    }
+  ],
+  "services": [
+    {
+      "number": "01",
+      "title": "Cybersecurity Engineering",
+      "description": "Penetration testing, ethical hacking, network intrusion detection, and secure coding practices."
+    },
+    {
+      "number": "02",
+      "title": "AI/ML Development",
+      "description": "NLP pipelines, classification, regression, clustering, and deploying ML models in production."
+    },
+    {
+      "number": "03",
+      "title": "Python Backend Development",
+      "description": "REST APIs with FastAPI and Flask, chatbot systems with Rasa, and Streamlit dashboards."
+    },
+    {
+      "number": "04",
+      "title": "Security Research",
+      "description": "Bug bounty hunting, vulnerability assessment, SQL injection testing, and threat analysis."
+    }
+  ]
+}
