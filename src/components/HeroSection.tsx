@@ -62,7 +62,7 @@ export const HeroSection: React.FC = () => {
         >
           <span className="pulse-dot" />
           <span className="font-mono text-xs tracking-wider text-green-400 font-medium">
-            Available for Internships — 2025
+            Open to Internships – Cybersecurity | AI/ML | Python
           </span>
         </motion.div>
 
