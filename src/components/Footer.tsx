@@ -148,11 +148,6 @@ export const Footer: React.FC = () => {
           >
             <ArrowUp size={14} />
           </button>
-
-          {/* Built with Claude */}
-          <p className="font-mono text-[10px] text-gray-600 select-none">
-            Built with Claude
-          </p>
         </div>
       </div>
     </footer>

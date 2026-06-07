@@ -21,7 +21,7 @@ export const ProjectsSection: React.FC = () => {
       {/* Background Glows */}
       <div className="absolute top-1/4 right-10 w-[350px] h-[350px] rounded-full bg-cyber-cyan/5 blur-[120px] pointer-events-none" />
 
-      <div className="max-w-4xl w-full">
+      <div className="max-w-5xl w-full">
         {/* Section Title */}
         <div className="flex flex-col items-start mb-16">
           <span className="font-mono text-xs text-cyber-cyan tracking-widest uppercase mb-2">
