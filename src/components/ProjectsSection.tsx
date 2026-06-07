@@ -28,7 +28,7 @@ export const ProjectsSection: React.FC = () => {
             04 // PROJECT_REPOS
           </span>
           <h2 className="font-display font-bold text-3xl sm:text-4xl text-white tracking-wide">
-            Featured Projects
+            Featured ProJects
           </h2>
           <div className="h-[2px] w-16 bg-cyber-cyan mt-2 shadow-[0_0_8px_rgba(0,212,255,0.7)]" />
         </div>
@@ -36,10 +36,6 @@ export const ProjectsSection: React.FC = () => {
         {/* Stacked Cards Container */}
         <div className="flex flex-col gap-16 relative">
           {sortedProjects.map((project, index) => {
-            // Calculate sticky offsets so they stack with slight overlaps
-            // e.g. top-28, top-32, top-36...
-            const topOffsetClass = `sticky top-[100px] md:top-[120px]`;
-
             return (
               <motion.div
                 key={project.id}
@@ -47,8 +43,7 @@ export const ProjectsSection: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6 }}
-                style={{ zIndex: index + 10 }}
-                className={`${topOffsetClass} w-full transition-transform duration-300`}
+                className="w-full transition-transform duration-300"
               >
                 <ProjectCard project={project} index={index} />
               </motion.div>
