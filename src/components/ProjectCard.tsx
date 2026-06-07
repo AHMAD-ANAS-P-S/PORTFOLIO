@@ -31,22 +31,43 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
     <div className="glass-card w-full p-6 sm:p-8 flex flex-col md:flex-row gap-8 items-stretch select-text">
       <div className="scan-line-overlay" />
 
-      {/* Left Column: Dark Grid Image Fallback */}
+      {/* Left Column: Image or Dark Grid Fallback */}
       <div className="w-full md:w-2/5 min-h-[180px] rounded-lg border border-cyber-cyan/25 bg-cyber-bg/60 relative overflow-hidden flex flex-col justify-center items-center p-6 select-none group-hover:border-cyber-cyan/50 transition-all duration-300">
-        {/* Subtle grid background for the thumbnail */}
-        <div className="absolute inset-0 bg-cover bg-center opacity-20 hero-grid" />
-        {/* Cyberpunk decoration elements */}
-        <div className="absolute top-2 left-2 font-mono text-[9px] text-cyber-cyan/40">SYS_SEC_PORT: {formattedIndex}</div>
-        <div className="absolute bottom-2 right-2 font-mono text-[9px] text-cyber-cyan/40">STATUS: ACTIVE</div>
+        {project.image ? (
+          <>
+            {/* Project Image */}
+            <img
+              src={project.image}
+              alt={project.title}
+              className="absolute inset-0 w-full h-full object-contain p-2 opacity-85 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-500"
+            />
+            {/* Cyberpunk grid texture pattern overlay on top of the image */}
+            <div className="absolute inset-0 bg-cover bg-center opacity-10 hero-grid pointer-events-none" />
+            {/* Color overlay to integrate with theme */}
+            <div className="absolute inset-0 bg-gradient-to-t from-cyber-bg via-transparent to-transparent opacity-60 pointer-events-none" />
+          </>
+        ) : (
+          <>
+            {/* Subtle grid background for the thumbnail */}
+            <div className="absolute inset-0 bg-cover bg-center opacity-20 hero-grid" />
+            {/* Fallback Icon & Title overlay */}
+            <ShieldCheck className="text-cyber-cyan w-10 h-10 mb-2 relative z-10 filter drop-shadow-[0_0_8px_rgba(0,212,255,0.4)]" />
+            <h4 className="font-display font-bold text-sm text-center text-white relative z-10 px-2 tracking-wide uppercase">
+              {project.title.split('–')[0]}
+            </h4>
+            <span className="font-mono text-[9px] text-cyber-cyan mt-1 px-2.5 py-0.5 rounded bg-cyber-cyan/10 border border-cyber-cyan/20 z-10">
+              CORE_MODULE
+            </span>
+          </>
+        )}
         
-        {/* Fallback Icon & Title overlay */}
-        <ShieldCheck className="text-cyber-cyan w-10 h-10 mb-2 relative z-10 filter drop-shadow-[0_0_8px_rgba(0,212,255,0.4)]" />
-        <h4 className="font-display font-bold text-sm text-center text-white relative z-10 px-2 tracking-wide uppercase">
-          {project.title.split('–')[0]}
-        </h4>
-        <span className="font-mono text-[9px] text-cyber-cyan mt-1 px-2.5 py-0.5 rounded bg-cyber-cyan/10 border border-cyber-cyan/20 z-10">
-          CORE_MODULE
-        </span>
+        {/* Cyberpunk decoration elements overlay */}
+        <div className="absolute top-2 left-2 font-mono text-[9px] text-cyber-cyan/60 bg-cyber-bg/85 px-1.5 py-0.5 rounded border border-cyber-cyan/15 z-10 backdrop-blur-sm">
+          SYS_SEC_PORT: {formattedIndex}
+        </div>
+        <div className="absolute bottom-2 right-2 font-mono text-[9px] text-cyber-cyan/60 bg-cyber-bg/85 px-1.5 py-0.5 rounded border border-cyber-cyan/15 z-10 backdrop-blur-sm">
+          STATUS: ACTIVE
+        </div>
       </div>
 
       {/* Right Column: Project details */}

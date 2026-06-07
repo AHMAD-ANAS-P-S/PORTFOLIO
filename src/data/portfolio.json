@@ -178,7 +178,7 @@
       "role": "Solo Developer",
       "year": "2025",
       "link": "https://github.com/AHMAD-ANAS-P-S/MULTIMODAL-AI-DRIVEN-REAL-TIME-PHISHING-DETECTION-AND-PREVENTION-SYSTEM",
-      "image": "",
+      "image": "/src/assets/projects/multimodal-ai-phishing-photo.png",
       "highlight": true
     },
     {
@@ -196,7 +196,7 @@
       "role": "Solo Developer",
       "year": "2026",
       "link": "https://github.com/AHMAD-ANAS-P-S/ContractIQ",
-      "image": "",
+      "image": "/src/assets/projects/contract-iq-photo.png",
       "highlight": true
     },
     {
@@ -214,7 +214,7 @@
       "role": "Solo Developer",
       "year": "2026",
       "link": "https://github.com/AHMAD-ANAS-P-S/VOICESERVE-AI",
-      "image": "",
+      "image": "/src/assets/projects/voice-serve-ai-photo.jpeg",
       "highlight": false
     },
     {
@@ -231,7 +231,7 @@
       "role": "Solo Developer",
       "year": "2025",
       "link": "https://github.com/AHMAD-ANAS-P-S/HYDROSHIELD-AI",
-      "image": "",
+      "image": "/src/assets/projects/aqua-guard-ai-photo.png",
       "highlight": false
     },
     {
@@ -249,7 +249,7 @@
       "role": "Solo Developer",
       "year": "2026",
       "link": "https://github.com/AHMAD-ANAS-P-S/AI-Powered-Real-Time-Network-Intrusion-Detection-System",
-      "image": "",
+      "image": "/src/assets/projects/ai-powered-real-time-network-intrusion-photo.png",
       "highlight": false
     },
     {
@@ -272,7 +272,7 @@
       "role": "Solo Developer",
       "year": "2026",
       "link": "https://github.com/AHMAD-ANAS-P-S",
-      "image": "",
+      "image": "/src/assets/projects/mediflow-ai-photo.jpeg",
       "highlight": true
     },
     {
@@ -291,7 +291,7 @@
       "role": "Solo Developer",
       "year": "2026",
       "link": "https://github.com/AHMAD-ANAS-P-S/PHRIS-Predictive-Human-Risk-Intelligence-System-",
-      "image": "",
+      "image": "/src/assets/projects/phris-predictive-human-risk-photo.png",
       "highlight": false
     },
     {
@@ -310,7 +310,7 @@
       "role": "Solo Developer",
       "year": "2025",
       "link": "https://github.com/AHMAD-ANAS-P-S/fake-news-detection",
-      "image": "",
+      "image": "/src/assets/projects/fake-news-photo.png",
       "highlight": false
     },
     {
@@ -329,7 +329,7 @@
       "role": "Solo Developer",
       "year": "2025",
       "link": "https://github.com/AHMAD-ANAS-P-S/resume_screening",
-      "image": "",
+      "image": "/src/assets/projects/resume-screnenig-photo.png",
       "highlight": false
     }
   ],
